@@ -89,7 +89,7 @@ herAnimOffsets = new Map<String, Array<Dynamic>>();
 		her = new FlxSprite(0, 0);
 
 		her.antialiasing = ClientPrefs.globalAntialiasing;;
-
+}
 		//orbyy
 
 		her.cameras = [camSpace];
