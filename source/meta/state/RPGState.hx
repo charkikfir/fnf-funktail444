@@ -190,4 +190,3 @@ herAnimOffsets = new Map<String, Array<Dynamic>>();
 
 }
 
-#end
