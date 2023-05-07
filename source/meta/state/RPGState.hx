@@ -93,8 +93,7 @@ herAnimOffsets = new Map<String, Array<Dynamic>>();
 }
 		//orbyy
 
-		her.cameras = [camSpace];
-
+		
 		her.frames = Paths.getSparrowAtlas('rpg/her');
 
 		
