@@ -417,7 +417,7 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										MusicBeatState.switchState(new StoryMenuState());
+										MusicBeatState.switchState(new RPGState());
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
 									#if (MODS_ALLOWED && FUTURE_POLYMOD)
