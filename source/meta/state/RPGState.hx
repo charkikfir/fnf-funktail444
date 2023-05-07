@@ -84,17 +84,18 @@ class RPGState extends MusicBeatState
 
                var her:FlxSprite;
 
-herAnimOffsets = new Map<String, Array<Dynamic>>();
+her.AnimOffsets = new Map<String, Array<Dynamic>>();
 
 		her = new FlxSprite(0, 0);
 
 		her.antialiasing = ClientPrefs.globalAntialiasing;
+		
+		her.frames = Paths.getSparrowAtlas('rpg/her');
 }
 }
 		//orbyy
 
 		
-		her.frames = Paths.getSparrowAtlas('rpg/her');
 
 		
 
