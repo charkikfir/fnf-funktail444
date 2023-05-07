@@ -82,6 +82,8 @@ class RPGState extends MusicBeatState
 
 		add(menuBG);
 
+               var her:FlxSprite;
+
 herAnimOffsets = new Map<String, Array<Dynamic>>();
 
 		her = new FlxSprite(0, 0);
