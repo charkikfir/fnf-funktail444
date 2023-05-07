@@ -117,11 +117,6 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 }
 		//orbyy	
 
-		sys.thread.Thread.create(() -> {
-
-			cache();
-
-		});
 
 		super.create();
 
