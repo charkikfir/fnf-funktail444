@@ -125,7 +125,6 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 
 		super.create();
 
-	}
 
 	override function update(elapsed) 
 
