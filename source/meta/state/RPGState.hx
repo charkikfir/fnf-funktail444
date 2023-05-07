@@ -146,8 +146,10 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 		her.AddOffset('up', -47, -10);
 
 		her.PlayAnim('up');
-
-#end		
+		#end	
+}
+}
+}	
 }
 }
 }
