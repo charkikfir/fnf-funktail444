@@ -121,39 +121,8 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 
 
 
-	override function update(elapsed) 
+	
 
-	{
-
-		super.update(elapsed);
-
-	}
-
-	function cache()
-
-	{
-
-		#if !linux
-
-			var sound1:FlxSound;
-
-			sound1 = new FlxSound().loadEmbedded(Paths.voices('fresh'));
-
-			sound1.play();
-
-			sound1.volume = 0.00001;
-
-			FlxG.sound.list.add(sound1);
-
-			var sound2:FlxSound;
-
-			sound2 = new FlxSound().loadEmbedded(Paths.inst('fresh'));
-
-			sound2.play();
-
-			sound2.volume = 0.00001;
-
-			FlxG.sound.list.add(sound2);
 
 		for (i in images)
 
@@ -176,9 +145,5 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 		}
 
 		#end
-
-		FlxG.switchState(new TitleState());
-
-	}
 
 
