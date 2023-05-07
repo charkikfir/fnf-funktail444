@@ -1,4 +1,4 @@
-![](https://github.com/Joalor64GH/Joalor64-Engine-Rewrite/blob/main/art/logo.png?raw=true)
+![](http2s://github.com/Joalor64GH/Joalor64-Engine-Rewrite/blob/main/art/logo.png?raw=true)
 
 # Joalor64 Engine Rewritten
 A remake of the original [Joalor64 Engine](https://github.com/Joalor64GH/Joalor64-Engine). Not everything is perfect, so contributions and/or [pull requests](https://github.com/Joalor64GH/Joalor64-Engine-Rewrite/pulls) would be nice! Be sure to report bugs in [issues](https://github.com/Joalor64GH/Joalor64-Engine-Rewrite/issues) also!
