@@ -115,35 +115,3 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 		#end
 }
 }
-		//orbyy	
-
-
-
-
-
-	
-
-
-		for (i in images)
-
-		{
-
-			var replaced = i.replace(".png","");
-
-			var data:BitmapData = BitmapData.fromFile("assets/shared/images/characters/" + i);
-
-			var graph = FlxGraphic.fromBitmapData(data);
-
-			graph.persist = true;
-
-			graph.destroyOnNoUse = false;
-
-			bitmapData.set(replaced,graph);
-
-			trace(i);
-
-		}
-
-		#end
-
-
