@@ -91,15 +91,8 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 		her.antialiasing = ClientPrefs.globalAntialiasing;
 		
 		her.frames = Paths.getSparrowAtlas('rpg/her');
-}
-}
-		//orbyy
-
 		
-
-		
-
-		her.animation.addByPrefix('right', 'right', 24, false);
+			her.animation.addByPrefix('right', 'right', 24, false);
 
         her.animation.addByPrefix('down', 'down', 24, false);
 
@@ -120,6 +113,15 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 		
 
 		#end
+}
+}
+		//orbyy
+
+		
+
+		
+
+	
 
 		sys.thread.Thread.create(() -> {
 
