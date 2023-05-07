@@ -181,4 +181,4 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 
 	}
 
-}
+
