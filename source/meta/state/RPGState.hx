@@ -118,7 +118,7 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 		//orbyy	
 
 
-		super.create();
+
 
 
 	override function update(elapsed) 
