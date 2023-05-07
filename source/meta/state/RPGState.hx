@@ -1,6 +1,6 @@
 #if sys
 
-package;
+package meta.state;
 
 import flixel.FlxG;
 
