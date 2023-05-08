@@ -18,6 +18,8 @@ import flixel.input.keyboard.FlxKey;
 
 import flixel.addons.display.FlxGridOverlay;
 
+import flixel.graphics.FlxGraphic;
+
 import flixel.addons.transition.FlxTransitionSprite.GraphicTransTileDiamond;
 
 import flixel.addons.transition.FlxTransitionableState;
