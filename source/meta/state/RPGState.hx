@@ -137,15 +137,7 @@ add(her);
 
 		her.animation.addByPrefix('up', 'up', 24, false);
 
-		her.AddOffset('right', 10, 0);
 
-		her.AddOffset('down', -47, 57);
-
-		her.AddOffset('left', -54, 0);
-
-		her.AddOffset('up', -47, -10);
-
-		her.PlayAnim('up');
 		}
 	}
 	
