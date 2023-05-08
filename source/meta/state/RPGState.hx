@@ -121,7 +121,6 @@ class RPGState extends MusicBeatState
 
                var her:FlxSprite;
 
-her.AnimOffsets = new Map<String, Array<Dynamic>>();
 
 		her = new FlxSprite(0, 0);
 
