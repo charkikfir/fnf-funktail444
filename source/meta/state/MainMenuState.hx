@@ -7,6 +7,7 @@ import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
 import flixel.FlxCamera;
+import flixel.graphics.FlxGraphic;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
