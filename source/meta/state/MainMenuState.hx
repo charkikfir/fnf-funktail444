@@ -418,6 +418,7 @@ class MainMenuState extends MusicBeatState
 								{
 									case 'story_mode':
 										MusicBeatState.switchState(new RPGState());
+										
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
 									#if (MODS_ALLOWED && FUTURE_POLYMOD)
