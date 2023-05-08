@@ -18,8 +18,6 @@ import flixel.input.keyboard.FlxKey;
 
 import flixel.addons.display.FlxGridOverlay;
 
-import flixel.graphics.FlxGraphic;
-
 import flixel.addons.transition.FlxTransitionSprite.GraphicTransTileDiamond;
 
 import flixel.addons.transition.FlxTransitionableState;
@@ -139,15 +137,15 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 
 		her.animation.addByPrefix('up', 'up', 24, false);
 
-		her.AddOffset('right', 10, 0);
+		herAddOffset('right', 10, 0);
 
-		her.AddOffset('down', -47, 57);
+		herAddOffset('down', -47, 57);
 
-		her.AddOffset('left', -54, 0);
+		herAddOffset('left', -54, 0);
 
-		her.AddOffset('up', -47, -10);
+		herAddOffset('up', -47, -10);
 
-		her.PlayAnim('up');
+		herPlayAnim('up');
 		}
 	}
 	
