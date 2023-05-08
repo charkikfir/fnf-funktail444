@@ -128,7 +128,7 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 		her.antialiasing = ClientPrefs.globalAntialiasing;
 		
 		her.frames = Paths.getSparrowAtlas('rpg/her');
-		
+add(her);		
 			her.animation.addByPrefix('right', 'right', 24, false);
 
         her.animation.addByPrefix('down', 'down', 24, false);
@@ -137,15 +137,15 @@ her.AnimOffsets = new Map<String, Array<Dynamic>>();
 
 		her.animation.addByPrefix('up', 'up', 24, false);
 
-		herAddOffset('right', 10, 0);
+		her.AddOffset('right', 10, 0);
 
-		herAddOffset('down', -47, 57);
+		her.AddOffset('down', -47, 57);
 
-		herAddOffset('left', -54, 0);
+		her.AddOffset('left', -54, 0);
 
-		herAddOffset('up', -47, -10);
+		her.AddOffset('up', -47, -10);
 
-		herPlayAnim('up');
+		her.PlayAnim('up');
 		}
 	}
 	
