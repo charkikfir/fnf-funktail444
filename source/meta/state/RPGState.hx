@@ -178,7 +178,7 @@ class RPGState extends FlxState
 /**
  * The Scrunkly
  */
-class her extends FlxSprite
+class Her extends FlxSprite
 {
 	private var controls(get, never):Controls;
 
@@ -188,7 +188,7 @@ class her extends FlxSprite
 	public function new()
 	{
 		super();
-				her = new FlxSprite(Paths.image('rpg/her'), true, 16, 16);
+				Her = new FlxSprite(Paths.image('rpg/her'), true, 16, 16);
 		animation.add('down', [0, 1, 2, 1], 8, false);
 		animation.add('up', [3, 4, 5, 4], 8, false);
 		animation.add('left', [6, 7], 8, false);
