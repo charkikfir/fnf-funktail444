@@ -128,7 +128,7 @@ if (controls.BACK)
                var her:FlxSprite;
 
 
-	var	her:FlxSprite(Paths.image('rpg/her'), true, 16, 16);
+		var her:FlxSprite = new FlxSprite().loadGraphic(Paths.image('her'));
 
 		her.antialiasing = ClientPrefs.globalAntialiasing;
 		
