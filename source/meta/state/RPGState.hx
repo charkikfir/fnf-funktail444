@@ -108,10 +108,7 @@ class RPGState extends MusicBeatState
 if (controls.BACK)
 		{
 			persistentUpdate = false;
-			if(colorTween != null) {
-				colorTween.cancel();
-			}
-			FlxG.sound.play(Paths.sound('cancelMenu'));
+Paths.sound('cancelMenu'));
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
