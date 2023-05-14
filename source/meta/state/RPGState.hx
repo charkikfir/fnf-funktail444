@@ -129,7 +129,7 @@ Paths.sound('cancelMenu'));
                var her:FlxSprite;
 
 
-		Her = new FlxSprite(Paths.image('rpg/her'), true, 16, 16);
+		her = new FlxSprite(Paths.image('rpg/her'), true, 16, 16);
 
 		her.antialiasing = ClientPrefs.globalAntialiasing;
 		
