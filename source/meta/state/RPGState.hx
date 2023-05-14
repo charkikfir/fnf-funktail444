@@ -135,7 +135,7 @@ class RPGState extends FlxState
 					onComplete: function(tween:FlxTween)
 					{
 						FlxTransitionableState.skipNextTransIn = false;
-						Main.switchState(this, new PlayState());
+						
 					}
 				});
 			});
@@ -189,11 +189,14 @@ class Her extends FlxSprite
 	{
 		super();
 				Her = new FlxSprite(Paths.image('rpg/her'), true, 16, 16);
-		animation.add('down', [0, 1, 2, 1], 8, false);
-		animation.add('up', [3, 4, 5, 4], 8, false);
-		animation.add('left', [6, 7], 8, false);
-		animation.add('right', [8, 9], 8, false);
-		animation.play('down', true);
+		her.animation.addByPrefix('right', 'right', 24, false);
+
+        her.animation.addByPrefix('down', 'down', 24, false);
+
+        her.animation.addByPrefix('left', 'left', 24, false);
+
+		her.animation.addByPrefix('up', 'up', 24, false);
+
 	}
 
 	var walkSpeed:Float = 1;
@@ -308,4 +311,4 @@ class Her extends FlxSprite
 	}
 }
 
-class OverworldObject extends FlxSprite {}
+class Fall extends FlxSprite {}
