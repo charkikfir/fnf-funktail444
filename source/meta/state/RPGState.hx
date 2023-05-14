@@ -85,12 +85,12 @@ class Fall extends FlxState
 		gameCam.maxScrollX = bg.x + bg.width;
 		gameCam.maxScrollY = bg.y + bg.height + 60;
 
-		her = new her();
-		her.setPosition(160, 64);
-		// her.screenCenter();
-		add(her);
-		FlxG.camera.follow(her, LOCKON, 1);
-		FlxG.camera.deadzone = FlxRect.get((FlxG.camera.width - her.width) / 2, (FlxG.camera.height - her.height) / 2, her.width - 8, her.height);
+		Her = new Her();
+		Her.setPosition(160, 64);
+		// Her.screenCenter();
+		add(Her);
+		FlxG.camera.follow(Her, LOCKON, 1);
+		FlxG.camera.deadzone = FlxRect.get((FlxG.camera.width - Her.width) / 2, (FlxG.camera.height - Her.height) / 2, Her.width - 8, Her.height);
 
 
 		pointTo = new FlxPoint(320 + 8, 192 + 8);
@@ -109,7 +109,7 @@ class Fall extends FlxState
 		bgOcean.scrollX = shiftX;
 
 		//
-		var distanceToPoint:Float = Math.sqrt(Math.pow((pointTo.x - (her.x + 8)), 2) + Math.pow(((her.y + 8) - pointTo.y), 2));
+		var distanceToPoint:Float = Math.sqrt(Math.pow((pointTo.x - (Her.x + 8)), 2) + Math.pow(((Her.y + 8) - pointTo.y), 2));
 		//
 		if (Math.floor(distanceToPoint) == 0 && !inCutscene)
 		{
@@ -188,7 +188,7 @@ class Fall extends FlxState
 /**
  * The Scrunkly
  */
-class Overworldher extends FlxSprite
+class OverworldHer extends FlxSprite
 {
 	private var controls(get, never):Controls;
 
