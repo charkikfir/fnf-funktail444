@@ -108,7 +108,6 @@ class RPGState extends MusicBeatState
 if (controls.BACK)
 		{
 			persistentUpdate = false;
-Paths.sound('cancelMenu'));
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
