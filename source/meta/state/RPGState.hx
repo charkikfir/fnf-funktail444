@@ -85,7 +85,6 @@ class Fall extends FlxState
 		gameCam.maxScrollX = bg.x + bg.width;
 		gameCam.maxScrollY = bg.y + bg.height + 60;
 
-		Her = new Her();
 		Her.setPosition(160, 64);
 		// Her.screenCenter();
 		add(Her);
