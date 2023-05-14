@@ -105,6 +105,16 @@ class RPGState extends MusicBeatState
 
 	{
 
+if (controls.BACK)
+		{
+			persistentUpdate = false;
+			if(colorTween != null) {
+				colorTween.cancel();
+			}
+			FlxG.sound.play(Paths.sound('cancelMenu'));
+			MusicBeatState.switchState(new MainMenuState());
+		}
+
 		FlxG.mouse.visible = false;
 
 		FlxG.worldBounds.set(0,0);
@@ -122,7 +132,7 @@ class RPGState extends MusicBeatState
                var her:FlxSprite;
 
 
-		her = new FlxSprite(0, 0);
+		Her = new FlxSprite(Paths.image('rpg/her'), true, 16, 16);
 
 		her.antialiasing = ClientPrefs.globalAntialiasing;
 		
