@@ -139,19 +139,19 @@ add(her);
 add(her);
 
 if (controls.UI_UP) {
-her.playAnim('up', true);
+her.animation.play('up');
 her.y += -1;
 		}
 		if (controls.UI_DOWN) {
-her.playAnim('down', true);
+her.animation.play('down');
 her.y += 1;
 		}
 if (controls.UI_LEFT) {
-her.playAnim('left', true);
+her.animation.play('left');
 her.x += -1;
 		}		
 if (controls.UI_RIGHT) {
-her.playAnim('right', true);
+her.animation.play('right');
 her.x += 1;
 		}			
       }
