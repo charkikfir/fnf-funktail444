@@ -2,7 +2,7 @@
 <!--
 Created with Free texture packer v0.6.7 http://free-tex-packer.com
 -->
-<TextureAtlas imagePath="texture.png" width="576" height="48">
+<TextureAtlas imagePath="her.png" width="576" height="48">
   <SubTexture name="Down000.png" x="0" y="0"  width="48" height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
   <SubTexture name="Down001.png" x="48" y="0"  width="48" height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
   <SubTexture name="Down002.png" x="96" y="0"  width="48" height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
