@@ -26,7 +26,7 @@ class Fall extends FlxState
 	public static var uiCam:FlxCamera;
 	public static var gameboyCam:FlxCamera;
 
-	public var Her:Her;
+	public var Her:FlxSprite;
 
 	public static var collisionMap:Array<Array<Bool>> = [];
 	public static var collisionSprite:FlxSprite;
@@ -197,7 +197,7 @@ class OverworldHer extends FlxSprite
 	public function new()
 	{
 		super();
-		loadGraphic(Paths.image('rpg/her'), true, 16, 16);
+				Her = new FlxSprite(Paths.image('rpg/her'), true, 16, 16);
 		animation.add('down', [0, 1, 2, 1], 8, false);
 		animation.add('up', [3, 4, 5, 4], 8, false);
 		animation.add('left', [6, 7], 8, false);
