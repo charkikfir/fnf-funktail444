@@ -138,20 +138,20 @@ add(her);
 
 if (controls.UI_UP) {
 her.playAnim('up', true);
-her.y = -=1;
+her.y.set(-=1);
 		}
 		if (controls.UI_DOWN) {
 her.playAnim('up', true);
-her.y = (+=1);
+her.y.set(+=1);
 		}
 if (controls.UI_LEFT) {
 her.playAnim('up', true);
-her.x = (-=1);
+her.x.set(-=1);
 		}		
 if (controls.UI_RIGHT) {
 her.playAnim('up', true);
-her.x = (+=1);
+her.x.set(+=1);
 		}			
-		}
+      }
 	}
 	
