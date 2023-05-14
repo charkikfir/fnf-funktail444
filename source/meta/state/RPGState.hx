@@ -135,22 +135,24 @@ add(her);
         her.animation.addByPrefix('left', 'left', 24, false);
 
 		her.animation.addByPrefix('up', 'up', 24, false);
+		
+add(her);
 
 if (controls.UI_UP) {
 her.playAnim('up', true);
-her.y(-=1);
+her.y += -1;
 		}
 		if (controls.UI_DOWN) {
-her.playAnim('up', true);
-her.y(+=1);
+her.playAnim('down', true);
+her.y += 1;
 		}
 if (controls.UI_LEFT) {
-her.playAnim('up', true);
-her.x(-=1);
+her.playAnim('left', true);
+her.x += -1;
 		}		
 if (controls.UI_RIGHT) {
-her.playAnim('up', true);
-her.x(+=1);
+her.playAnim('right', true);
+her.x += 1;
 		}			
       }
 	}
