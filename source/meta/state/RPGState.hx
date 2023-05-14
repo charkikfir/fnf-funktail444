@@ -26,7 +26,7 @@ class Fall extends FlxState
 	public static var uiCam:FlxCamera;
 	public static var gameboyCam:FlxCamera;
 
-	public var her:her;
+	public var Her:Her;
 
 	public static var collisionMap:Array<Array<Bool>> = [];
 	public static var collisionSprite:FlxSprite;
